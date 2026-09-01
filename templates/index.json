@@ -12,6 +12,25 @@
     "hero_jVaWmY": {
       "type": "hero",
       "blocks": {
+        "button_J9T4WJ": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "Shop now",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "custom_button_background": "{{ settings.color_palette.foreground }}",
+            "custom_button_text": "{{ settings.color_palette.background }}",
+            "custom_button_border": "{{ settings.color_palette.background }}",
+            "link_text_color": "",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        },
         "text_YLPk4p": {
           "type": "text",
           "name": "t:names.heading",
@@ -59,6 +78,7 @@
         }
       },
       "block_order": [
+        "button_J9T4WJ",
         "text_YLPk4p",
         "button_H9gpTf"
       ],
