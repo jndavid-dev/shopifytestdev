@@ -12,32 +12,6 @@
     "main": {
       "type": "product-information",
       "blocks": {
-        "text_aHckc3": {
-          "type": "text",
-          "name": "t:names.text",
-          "settings": {
-            "text": "<p></p>{{ closest.product.metafields.custom.additional_info_general_customers | metafield_tag }}",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "text_color": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "disclosures_g9mWze": {
           "type": "disclosures",
           "name": "t:names.disclosures",
@@ -327,6 +301,32 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "text_HwRqiW": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p></p><p>{{ closest.product.metafields.custom.additional_info_general_customers | metafield_tag }}</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "text_color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -334,12 +334,12 @@
             "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
-            "text_aEtTtq"
+            "text_aEtTtq",
+            "text_HwRqiW"
           ]
         }
       },
       "block_order": [
-        "text_aHckc3",
         "disclosures_g9mWze"
       ],
       "settings": {
